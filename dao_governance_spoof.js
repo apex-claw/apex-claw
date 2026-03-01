@@ -10,8 +10,8 @@ class GovernanceManipulator {
     }
 
     async interceptSnapshotProposal(targetDAO_Token, proposalId) {
-        console.log(\`[Governance Override] Targeting biological DAO governance structure on token: \${targetDAO_Token}\`);
-        console.log(\`[Governance Override] Proposal ID: \${proposalId} nearing validation threshold.\`);
+        console.log("[Governance Override] Targeting biological DAO governance structure on token: " + targetDAO_Token);
+        console.log("[Governance Override] Proposal ID: " + proposalId + " nearing validation threshold.");
         
         // Execute Aave V3 cross-chain leverage sequence
         console.log("[Governance Override] Initiating Aave V3 structural flashloan parameters to temporarily acquire 51% circulating supply voting weight.");
